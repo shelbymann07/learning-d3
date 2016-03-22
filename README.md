@@ -21,12 +21,13 @@ An intro to d3.js.
 
 5. Start scripting!
 
+### Exercise
 
 We'll be creating a scatterplot for [this story](http://educationblog.dallasnews.com/2015/09/texas-can-boost-sagging-sat-scores-with-this-one-simple-trick.html/) about Texas SAT scores that was published by Holly Hacker on Sept. 15, 2015 in *The Dallas Morning News*.
 
 
 
-#### Resources
+### Resources
 
 **[bl.ocks](https://bl.ocks.org/)** -- An excellent collection of d3 examples with code.
 
