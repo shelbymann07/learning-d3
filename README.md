@@ -1,5 +1,5 @@
-# d3
-An intro to d3.js.
+# Intro to D3.js
+
 
 ### Setup
 
