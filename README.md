@@ -9,13 +9,13 @@ An intro to d3.js.
 
 3. Start up a Python simple server in the directory to help serve our scripts and data resources.
 
-If you have Python 2.x:
+    If you have Python 2.x:
 
-    `python -m SimpleHTTPServer`
+        `python -m SimpleHTTPServer`
 
-If you have Python 3.x:
+    If you have Python 3.x:
 
-    `python -m http.server`
+        `python -m http.server`
 
 4. Open your browser to [http://localhost:8000/](http://localhost:8000/).
 
