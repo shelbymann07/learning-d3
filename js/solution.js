@@ -68,7 +68,6 @@ d3.tsv("data/sat.tsv", function(error, data) {
   var tooltip = d3.select("#tooltip");
 
 
-
   svg.append("g")
       .attr("class", "x axis")
       // Translate is an SVG property that helps us move the X axis below the chart.
@@ -117,7 +116,7 @@ d3.tsv("data/sat.tsv", function(error, data) {
         .attr("r", 5)
         .attr("cx",function(d){ return x(d.tested); })
         .attr("cy",function(d){ return y(d.score); })
-        .style("stroke","grey")
+        .style("stroke","white")
         .style("stroke-width","1px")
         .style("fill", function(d){
             return color(d.waiver);
@@ -135,6 +134,23 @@ d3.tsv("data/sat.tsv", function(error, data) {
         .on("mouseout", function(d){
             tooltip.classed("hidden",true);
         });
+
+
+        // Add a legend to the chart
+        var keys = d3.select("#key-table").selectAll(".key")
+            .data(color.domain()) // color.domain() just gives us an array of the color data values
+            .enter()
+            .append("div") // Appends one div for each color value in the array above.
+            .attr("class","key")
+            // You can also add straight HTML to an elements if you
+            // need to cudgel your way through a problem like these keys!
+            // I'm just inlining the html font-awesome circle
+            // icon, and adding the color as an inline style attribute.
+            // Not the most elegant way, but important to know you can do!
+            .html(function(d){
+                return "<i class='fa fa-circle' style='color:"
+                +color(d)+
+                ";'></i>"+d;});
 
 
 });

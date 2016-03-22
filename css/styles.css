@@ -29,11 +29,35 @@ h1{
 }
 
 /*Chart Styles*/
+.graphic{
+    position:relative;
+}
 #chart svg{
     font-family:'Open Sans', sans-serif;
     margin: 0 auto;
     display:block;
 }
+#key{
+    width:175px;
+    height: 100px;
+    position:absolute;
+    top:40px;
+    right:100px;
+    display:block;
+}
+
+#key h4{
+    font: bold 14px 'Open Sans', sans-serif;
+    margin-bottom: 5px;
+
+}
+.key{
+    font: 14px 'Open Sans', sans-serif;
+}
+.key i{
+    margin-right:10px;
+}
+
 .axis path,
 .axis line {
   fill: none;
@@ -44,7 +68,6 @@ h1{
     font-size: 14px;
 }
 .dot{
-    fill-opacity:.8;
     cursor:pointer;
 }
 text.label{
