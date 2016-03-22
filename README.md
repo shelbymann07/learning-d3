@@ -37,4 +37,4 @@ We'll be creating a scatterplot for [this story](http://educationblog.dallasnews
 
 **[D3.js documentation](https://github.com/mbostock/d3/wiki)** -- D3's official documentation.
 
-**[StackOverflow](http://stackoverflow.com/questions/tagged/d3.js)** -- All kinds of advice on the site that launched a million code careers.
+**[StackOverflow](http://stackoverflow.com/questions/tagged/d3.js)** -- All kinds of tips and code solutions on the site that launched a million developer careers.
