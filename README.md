@@ -11,11 +11,11 @@
 
     If you have Python 2.x:
 
-        `python -m SimpleHTTPServer`
+        python -m SimpleHTTPServer
 
     If you have Python 3.x:
 
-        `python -m http.server`
+        python -m http.server
 
 4. Open your browser to [http://localhost:8000/](http://localhost:8000/).
 
