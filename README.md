@@ -36,3 +36,5 @@ We'll be creating a scatterplot for [this story](http://educationblog.dallasnews
 **[Enter, Update, Exit](https://medium.com/@c_behrens/enter-update-exit-6cafc6014c36#.klk1swnq0)** -- Another good article introducing the General Update Pattern.
 
 **[D3.js documentation](https://github.com/mbostock/d3/wiki)** -- D3's official documentation.
+
+**[StackOverflow](http://stackoverflow.com/questions/tagged/d3.js)** -- All kinds of advice on the site that launched a million code careers.
