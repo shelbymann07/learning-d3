@@ -39,4 +39,5 @@ We'll be creating a scatterplot for [this story](http://educationblog.dallasnews
 
 **[StackOverflow](http://stackoverflow.com/questions/tagged/d3.js)** -- All kinds of tips and code solutions on the site that launched a million developer careers.
 
-### Work was done in class on 22 March 2016. More will be done on 24 March 2016.
+### Shelby's note: 
+** Work was done in class on 22 March 2016. More will be done on 24 March 2016.
